@@ -25,13 +25,13 @@ export default function SignInScreen() {
         </ThemedView>
 
         <View style={styles.linkGroup}>
-          <Link href="/(auth)/sign-up" style={styles.link}>
+          <Link href="/(auth)/sign-up" style={styles.link} asChild>
             <ThemedText type="linkPrimary">Don&apos;t have an account? Sign Up</ThemedText>
           </Link>
-          <Link href="/(auth)/forgot-password" style={styles.link}>
+          <Link href="/(auth)/forgot-password" style={styles.link} asChild>
             <ThemedText type="link">Forgot Password?</ThemedText>
           </Link>
-          <Link href="/(tabs)/feed" style={styles.link}>
+          <Link href="/(tabs)/feed" style={styles.link} asChild>
             <ThemedText type="link">Back to Feed</ThemedText>
           </Link>
         </View>

@@ -115,6 +115,8 @@ Detailed configuration decisions, permission explanations, and security guidelin
 
 ## 5. Design System & Development Standards
 
+- **Phase 01 Completion Record:** Documented in [docs/architecture/phase-1-completion.md](file:///D:/projects_mobile/step_counter/project/docs/architecture/phase-1-completion.md).
+- **Architecture Decision Records (ADRs):** Documented in [docs/adr/README.md](file:///D:/projects_mobile/step_counter/project/docs/adr/README.md).
 - **Design System & Theme Tokens:** Documented in [docs/architecture/design-system.md](file:///D:/projects_mobile/step_counter/project/docs/architecture/design-system.md).
 - **Code Standards & Tooling:** Documented in [docs/architecture/code-standards.md](file:///D:/projects_mobile/step_counter/project/docs/architecture/code-standards.md).
 - **Git & CI Workflow:** Documented in [docs/development/git-workflow.md](file:///D:/projects_mobile/step_counter/project/docs/development/git-workflow.md).

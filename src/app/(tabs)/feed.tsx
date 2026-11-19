@@ -31,7 +31,7 @@ export default function FeedScreen() {
           <ThemedText type="default" style={styles.cardBody}>
             Morning Trail Run — 5.24 km in 28:14
           </ThemedText>
-          <Link href="/activity/act-sample-101" style={styles.link}>
+          <Link href="/activity/act-sample-101" style={styles.link} asChild>
             <ThemedText type="linkPrimary">
               View Activity Details (#act-sample-101) &rarr;
             </ThemedText>

@@ -24,10 +24,10 @@ export default function SignUpScreen() {
         </ThemedView>
 
         <View style={styles.linkGroup}>
-          <Link href="/(auth)/sign-in" style={styles.link}>
+          <Link href="/(auth)/sign-in" style={styles.link} asChild>
             <ThemedText type="linkPrimary">Already have an account? Sign In</ThemedText>
           </Link>
-          <Link href="/(tabs)/feed" style={styles.link}>
+          <Link href="/(tabs)/feed" style={styles.link} asChild>
             <ThemedText type="link">Back to Feed</ThemedText>
           </Link>
         </View>
