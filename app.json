@@ -1,16 +1,20 @@
 {
   "expo": {
-    "name": "project",
-    "slug": "project",
+    "name": "Fitness Activity",
+    "slug": "fitness-activity",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "project",
+    "scheme": "fitnessactivity",
     "userInterfaceStyle": "automatic",
+    "platforms": ["ios", "android", "web"],
     "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.example.fitnessactivity",
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.example.fitnessactivity",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -28,11 +32,19 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#ffffff",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow Fitness Activity to access your location while you record a workout so we can measure distance, pace and display your route.",
+          "locationAlwaysAndWhenInUsePermission": "Allow Fitness Activity to continue recording your workout when you switch applications or turn off your screen."
+        }
+      ],
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true,
